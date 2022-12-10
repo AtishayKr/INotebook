@@ -87,7 +87,7 @@ export default function SignupPage2(props) {
                       name="password"
                       placeholder="Password"
                       required
-                      minLength={5}
+                      minLength={7}
                       onChange={onChange}
                       value={signupData.password}
                       autoComplete="off"
@@ -108,7 +108,7 @@ export default function SignupPage2(props) {
                       name="cnfPassword"
                       placeholder="Confirm Your Password"
                       required
-                      minLength={5}
+                      minLength={7}
                       onChange={onChange}
                       value={signupData.cnfPassword}
                       autoComplete="off"
