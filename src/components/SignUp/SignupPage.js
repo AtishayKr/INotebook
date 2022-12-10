@@ -69,7 +69,7 @@ export default function SignupPage2(props) {
                       required
                       onChange={onChange}
                       value={signupData.email}
-                      autoComplete="nope"
+                      autoComplete="off"
                     />
                       
                     </div>

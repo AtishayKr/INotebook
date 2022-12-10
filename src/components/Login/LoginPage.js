@@ -31,7 +31,7 @@ export default function LoginPage2(props) {
                       value={credential.email}
                       required
                       onChange={onChange}
-                      autoComplete="nope"
+                      autoComplete="off"
                     />
                   </div>
                 </div>
